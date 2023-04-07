@@ -11,7 +11,7 @@ class bank():   #입금,출금,잔액
 
 
     def dep(self,de):   #입금
-        self.deposit = de
+        self.deposit = de 
         n = input("계좌번호 입력")
         if(n in self.number):
             self.number[n] += self.deposit
